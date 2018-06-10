@@ -35,8 +35,8 @@
       <arg column="status" jdbcType="INTEGER" javaType="java.lang.Integer" />
       <arg column="create_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
       <arg column="update_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
-      <arg column="sub_images" jdbcType="LONGVARCHAR" javaType="VARCHAR" />
-      <arg column="detail" jdbcType="LONGVARCHAR" javaType="VARCHAR" />
+      <arg column="sub_images" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
+      <arg column="detail" jdbcType="LONGVARCHAR" javaType="java.lang.String" />
     </constructor>
   </resultMap>
   <sql id="Base_Column_List" >
